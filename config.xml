@@ -23,9 +23,10 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="^6.2.3" />
-    <engine name="ios" spec="^4.4.0" />
-    <plugin name="cordova-android-fragments" spec="^0.1.1" />
-    <plugin name="cordova-plugin-vuforia" spec="^3.2.1" />
-    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
-    <plugin name="cordova-plugin-wkwebview-engine" spec="^1.1.3" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-vuforia" spec="~3.2.1" />
+    <plugin name="cordova-plugin-wkwebview-engine" spec="~1.1.3" />
+    <plugin name="cordova-android-fragments" spec="~0.1.0" />
+    <plugin name="cordova-plugin-screen-orientation" spec="~3.0.2" />
+    <plugin name="cordova-plugin-realityeditor" spec="/Users/James/re/Android/RealityEditorCordova/node_modules/cordova-plugin-realityeditor" />
 </widget>
