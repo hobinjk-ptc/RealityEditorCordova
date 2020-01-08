@@ -1,0 +1,36 @@
+{
+    "name": "realityeditor",
+    "displayName": "Reality Editor",
+    "version": "0.1.0",
+    "description": "Port of Reality Editor to Android",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "jhobin@ptc.com",
+    "license": "MPL-2.0",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-android-fragments": "^0.1.1",
+        "cordova-ios": "^4.4.0",
+        "cordova-plugin-screen-orientation": "^3.0.2",
+        "cordova-plugin-vuforia": "^3.2.1",
+        "cordova-plugin-vuforia-sdk": "^6.0.117",
+        "cordova-plugin-whitelist": "^1.3.2",
+        "cordova-plugin-wkwebview-engine": "^1.1.3",
+        "es6-promise-plugin": "^4.2.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-vuforia": {},
+            "cordova-plugin-wkwebview-engine": {},
+            "cordova-android-fragments": {},
+            "cordova-plugin-screen-orientation": {}
+        },
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    }
+}
