@@ -102,3 +102,9 @@ lint/tmp/
 # lint/reports/
 
 node_modules/
+
+# Vim swap files
+*.swp
+
+# Top-level cordova-generated platforms
+/platforms

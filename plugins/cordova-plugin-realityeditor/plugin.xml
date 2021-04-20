@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-realityeditor"
+        version="0.0.1">
+    <name>Reality Editor</name>
+    <description>Cordova Reality Editor Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,vuforia,image,recognition,augmented,reality</keywords>
+    <repo>git@github.com:hobinjk-ptc/cordova-plugin-realityeditor.git</repo>
+    <issue>https://github.com/hobinjk-ptc/cordova-plugin-realityeditor/issues</issue>
+
+    <author>James Hobin</author>
+
+    <info>
+      Cordova Reality Editor Plugin version 0.0.1, Copyright (C) 2020 James
+      Hobin Cordova Reality Editor Plugin comes with ABSOLUTELY NO
+      WARRANTY; see the LICENSE file for more information.
+      This is free software, and you are welcome to redistribute it
+      under certain conditions; see the LICENSE file for more information.
+    </info>
+
+    <js-module src="www/RealityEditorPlugin.js" name="RealityEditorPlugin">
+        <clobbers target="navigator.RealityEditorPlugin" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <!-- Plugin Config -->
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="RealityEditorPlugin" >
+                <param name="android-package" value="com.ptc.realityeditor.RealityEditorPlugin"/>
+            </feature>
+        </config-file>
+
+        <!-- Plugin Source -->
+        <source-file src="src/android/RealityEditorPlugin.java" target-dir="src/com/ptc/realityeditor" />
+    </platform>
+</plugin>

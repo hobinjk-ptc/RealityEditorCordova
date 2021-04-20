@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-vuforia@3.2.1",
+        "scope": null,
+        "escapedName": "cordova-plugin-vuforia",
+        "name": "cordova-plugin-vuforia",
+        "rawSpec": "3.2.1",
+        "spec": "3.2.1",
+        "type": "version"
+      },
+      "/Users/benreynolds/Documents/Work/Code/RealityEditorCordova/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-vuforia@3.2.1",
+  "_id": "cordova-plugin-vuforia@3.2.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-vuforia",
+  "_nodeVersion": "6.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-vuforia-3.2.1.tgz_1476692303901_0.49148690328001976"
+  },
+  "_npmUser": {
+    "name": "mattrayner",
+    "email": "mattrayner1@gmail.com"
+  },
+  "_npmVersion": "3.9.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-vuforia@3.2.1",
+    "scope": null,
+    "escapedName": "cordova-plugin-vuforia",
+    "name": "cordova-plugin-vuforia",
+    "rawSpec": "3.2.1",
+    "spec": "3.2.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-vuforia/-/cordova-plugin-vuforia-3.2.1.tgz",
+  "_shasum": "ea8308a6c9eadc5c1cefe50768f847a35f85c092",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-vuforia@3.2.1",
+  "_where": "/Users/benreynolds/Documents/Work/Code/RealityEditorCordova/node_modules",
+  "author": {
+    "name": "Matthew Rayner"
+  },
+  "bugs": {
+    "url": "https://github.com/mattrayner/cordova-plugin-vuforia/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-vuforia",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova-plugin-vuforia-sdk": "6.x.x"
+  },
+  "description": "Cordova Vuforia Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ea8308a6c9eadc5c1cefe50768f847a35f85c092",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-vuforia/-/cordova-plugin-vuforia-3.2.1.tgz"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "<2.0.0": {
+        "cordova-android": ">=4.0.0 <5.0.0",
+        "cordova-ios": ">=3.0.0 <4.0.0"
+      },
+      ">=0.0.1": {
+        "cordova": ">=5.0.0"
+      },
+      ">=2.0.0": {
+        "cordova": ">=6.0.0",
+        "cordova-android": ">=5.0.0",
+        "cordova-ios": ">=4.0.0"
+      },
+      ">=3.0.0": {
+        "cordova": ">=6.1.0"
+      }
+    }
+  },
+  "gitHead": "c91f28bcbd638036c90d7e630be932e71b9014de",
+  "homepage": "https://github.com/mattrayner/cordova-plugin-vuforia",
+  "keywords": [
+    "cordova",
+    "vuforia",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "image",
+    "recognition",
+    "mattrayner"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "daniel.jackson.bd",
+      "email": "daniel.jackson@thisisbd.com"
+    },
+    {
+      "name": "dsgriffin",
+      "email": "danielseangriffin@gmail.com"
+    },
+    {
+      "name": "mattrayner",
+      "email": "matthew.rayner@thisisbd.com"
+    }
+  ],
+  "name": "cordova-plugin-vuforia",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mattrayner/cordova-plugin-vuforia.git"
+  },
+  "scripts": {},
+  "version": "3.2.1"
+}

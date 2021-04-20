@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-android-fragments",
+        "scope": null,
+        "escapedName": "cordova-android-fragments",
+        "name": "cordova-android-fragments",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/benreynolds/Documents/Work/Code/RealityEditorCordova/node_modules"
+    ]
+  ],
+  "_from": "cordova-android-fragments@latest",
+  "_id": "cordova-android-fragments@0.1.1",
+  "_inCache": true,
+  "_location": "/cordova-android-fragments",
+  "_nodeVersion": "4.2.6",
+  "_npmOperationalInternal": {
+    "host": "packages-6-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-android-fragments-0.1.1.tgz_1456420688529_0.6719746608287096"
+  },
+  "_npmUser": {
+    "name": "rajivnarayana",
+    "email": "rajivnarayana@gmail.com"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-android-fragments",
+    "scope": null,
+    "escapedName": "cordova-android-fragments",
+    "name": "cordova-android-fragments",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-android-fragments/-/cordova-android-fragments-0.1.1.tgz",
+  "_shasum": "a386f22e1589f8e0034d95f778800fc07ed4facd",
+  "_shrinkwrap": null,
+  "_spec": "cordova-android-fragments",
+  "_where": "/Users/benreynolds/Documents/Work/Code/RealityEditorCordova/node_modules",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/rajivnarayana/CordovaFragments/issues"
+  },
+  "cordova": {
+    "id": "cordova-android-fragments",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "An android plugin that provides a replacement activity to the default activity to start a cordova application with MainActivity as a Fragment Activity. Useful when you want to add native views on top of cordova webview.",
+  "devDependencies": {
+    "plugman": "undefined1.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "a386f22e1589f8e0034d95f778800fc07ed4facd",
+    "tarball": "https://registry.npmjs.org/cordova-android-fragments/-/cordova-android-fragments-0.1.1.tgz"
+  },
+  "gitHead": "27274aaabb7ce0e8ddbb87453e4d4fba27a8a622",
+  "homepage": "https://github.com/rajivnarayana/CordovaFragments",
+  "keywords": [
+    "cordova",
+    "fragment",
+    "fragments",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "rajivnarayana",
+      "email": "rajivnarayana@gmail.com"
+    }
+  ],
+  "name": "cordova-android-fragments",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajivnarayana/CordovaFragments.git"
+  },
+  "scripts": {},
+  "version": "0.1.1"
+}

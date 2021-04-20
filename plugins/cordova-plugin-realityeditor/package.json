@@ -1,0 +1,11 @@
+{
+  "name": "cordova-plugin-realityeditor",
+  "version": "0.1.0",
+  "description": "Cordova-Plugin-Vuforia is a [Cordova][cordova] plugin that uses [Vuforia][vuforia] to perform image recognition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
